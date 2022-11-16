@@ -59,7 +59,7 @@ function closediv(){
     blurbis.classList.replace('blurbis','none')
 }
 
-function gauchevrai(){
+function droitevrai(){
     for(i=0;i<iframe.length;i++){
     if (iframe[i].classList[0] == 'framemain'){
         iframe[i].classList.replace('framemain','frameinterdroite')
@@ -142,7 +142,7 @@ function gauchevrai(){
 
 }
 
-function droitevrai(){  for(i=0;i<iframe.length;i++){
+function gauchevrai(){  for(i=0;i<iframe.length;i++){
     if (iframe[i].classList[0] == 'framemain'){
         iframe[i].classList.replace('framemain','frameintergauche')
         iframe[i].animate({
