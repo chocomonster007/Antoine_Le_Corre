@@ -5,7 +5,8 @@ body{margin: 0;
 
 main{display: flex;
         margin-top: 12vh;
-        
+        width: 100%;
+        height: 60%;
         justify-content: space-around;}
 
 img{width: 100%;
@@ -16,8 +17,10 @@ img{width: 100%;
 .prout{display: block;
     position: relative;
     width: 20vw;
+   }
+
+
     
-    }
 
 #base{position: absolute;
       top: -15px;
@@ -85,12 +88,13 @@ text-decoration: none;
 @media (max-width:1580px){
     #base{font-size: 1.2em;
             top: -10px;}
-            .prout{width: 25vw;}
+            .prout{width: 20vw;}
             #cviframe{width: 65vw;}
+            .contactbis{height: 60%;}
 }
 
 @media (max-width:1320px){
-    .prout{width: 30vw;}
+    .prout{width: 25vw;}
     #cviframe{width: 85vw;}
     .contactbis{width: 70%;}}
 
